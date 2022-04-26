@@ -1,0 +1,26 @@
+{
+    "name": "masurao/log",
+    "version": "0.1",
+    "type": "library",
+    "description": "Stupid simple logging library",
+    "keywords": [
+        "log",
+        "logging"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masurao"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": ">=6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masurao\\Log\\": "src"
+        }
+    }
+}
